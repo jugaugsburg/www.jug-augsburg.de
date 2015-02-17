@@ -1,0 +1,32 @@
+-
+  name: Bulk Web-Crawler mit Spring Batch
+  date: 19.02.2015
+  time: "19:00"
+  xing: https://www.xing.com/events/vortrag-bulk-web-crawler-spring-batch-1502552
+  description: >
+    Web-Crawler durchforsten in Heerscharen das World-Wide-Web und versuchen dabei, aus dem gewaltigen Bestand an Websites Informationen zu extrahieren.
+
+    In dem Vortrag werden wir Schritt für Schritt den Aufbau eines Bulk-Web-Shop-Crawlers, mit dem aktuell ca. 1,2 Millionen Objekt crawlt werden, nachvollziehen. Dabei werden wir zunächst die Analyse der Ziel-Web-Sites durchführen und hierfür eine Java-Implementierung erstellen.
+    Im zweiten Schritt werden wir die Analyse-Komponente in das Spring-Batch-Frameworks einbetten, indem wir partitionierte Jobs erstellen und eine einfache Status-Datenbank anbinden.
+  speaker: 
+    name: Stefan Ostermayr
+    bio: > 
+      Stefan Ostermayr ist leitender Software-Architekt bei der media-it und seit 10 Jahren im Bereich Enterprise IT tätig 
+      und setzt dort überwiegend Spring- und J2EE-Technologie ein. Sein besonderes Interesse gilt der Optimierung von 
+      Batch-Systemen, Datenbanken und dem Einsatz von Web-Technologien.
+    image: 
+  address:
+    name: SHI GmbH & Co. KG
+    street: Curt-Frenzel-Str. 12
+    place: 86167 Augsburg
+-
+  name: Stammtisch
+  date: 26.02.2015
+  time: "18:30"
+  xing: https://www.xing.com/events/stammtisch-jug-augsburg-1497656
+  description: >
+    One-Stop-Shop für alle Java Interessierten aus dem Raum Augsburg zum Kennenlernen, Fachsimpeln und Planen von JUG Aktivitäten.
+  address:
+    name: Annapam
+    street: Bäckergasse 23
+    place: 86150 Augsburg   
