@@ -1,0 +1,28 @@
+---
+layout: default
+---
+
+<div class="home">
+
+  <h1 class="page-heading">Neues</h1>
+
+  <ul class="post-list">
+    {% for post in site.posts %}
+      <li>
+        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+
+        <h2>
+          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+        </h2>
+      </li>
+    {% endfor %}
+  </ul>
+
+  <h2>Sponsoren</h2>
+
+  <div class="sponsors">
+    <a href="http://www.shi-gmbh.com/" target="_new"><img src="/images/sponsoren/shi.png" /></a>
+    <a href="http://www.sandsmedia.com" target="_new"><img src="/images/sponsoren/sunds.jpg" /></a>
+  </div>
+
+</div>
