@@ -1,36 +1,4 @@
 -
-  name: Don't be that guy! 
-  date: 30.04.2015
-  time: "19:00"
-  description: >
-      Don't be that guy! Developer Security Awareness
-      All the common attacks we've known about for a very long time are
-      still out there, and people still regularly make mistakes regarding
-      them. This is an engaging session about Java EE technology, people,
-      and processes and how they best work together to build a suitable
-      secure system. Derived from practice for use with everyday
-      development, such a system can make the Java EE space a little more
-      secure.
-      <br/><br/>
-      <i>Der Talk findet in deutscher Sprache statt.</i>
-  speaker: 
-    name: Markus Eisele
-    bio: > 
-      Markus is a Developer Advocate at Red Hat and focuses on JBoss Middleware. 
-      He is working with Java EE servers from different vendors since more than 
-      14 years and talks about his favorite topics around Java EE on conferences 
-      all over the world. He has been a principle consultant and worked with 
-      different customers on all kinds of Java EE related applications and solutions. 
-      Beside that he has always been a prolific blogger, writer and tech editor for 
-      different Java EE related books. He is an active member of the German DOAG e.V. 
-      and it's representative on the iJUG e.V. As a Java Champion and former 
-      ACE Director he is well known in the community.
-    image: /images/speaker/2015/markus-eisele.jpg
-  address:
-    name: SHI GmbH & Co. KG
-    street: Curt-Frenzel-Str. 12
-    place: 86167 Augsburg
--
   name: Plug-in-Entwicklung für die IntelliJ Plattform
   date: 28.05.2015
   time: "19:00"
@@ -61,6 +29,38 @@
     name: SHI GmbH & Co. KG
     street: Curt-Frenzel-Str. 12
     place: 86167 Augsburg
+-
+  name: Don't be that guy! 
+  date: 30.04.2015
+  time: "19:00"
+  description: >
+      Don't be that guy! Developer Security Awareness
+      All the common attacks we've known about for a very long time are
+      still out there, and people still regularly make mistakes regarding
+      them. This is an engaging session about Java EE technology, people,
+      and processes and how they best work together to build a suitable
+      secure system. Derived from practice for use with everyday
+      development, such a system can make the Java EE space a little more
+      secure.
+      <br/><br/>
+      <i>Der Talk findet in deutscher Sprache statt.</i>
+  speaker: 
+    name: Markus Eisele
+    bio: > 
+      Markus is a Developer Advocate at Red Hat and focuses on JBoss Middleware. 
+      He is working with Java EE servers from different vendors since more than 
+      14 years and talks about his favorite topics around Java EE on conferences 
+      all over the world. He has been a principle consultant and worked with 
+      different customers on all kinds of Java EE related applications and solutions. 
+      Beside that he has always been a prolific blogger, writer and tech editor for 
+      different Java EE related books. He is an active member of the German DOAG e.V. 
+      and it's representative on the iJUG e.V. As a Java Champion and former 
+      ACE Director he is well known in the community.
+    image: /images/speaker/2015/markus-eisele.jpg
+  address:
+    name: SHI GmbH & Co. KG
+    street: Curt-Frenzel-Str. 12
+    place: 86167 Augsburg    
 -
   name: Bulk Web-Crawler mit Spring Batch
   date: 19.02.2015
