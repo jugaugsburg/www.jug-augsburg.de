@@ -8,8 +8,9 @@ layout: default
     <p>
 		{% if page.event.speaker %}Sprecher: {{page.event.speaker.name}}. <br/>{% endif %} 
     	Zeit: {{page.event.date}}, {{page.event.time}}. Ort: {{ page.event.address.name }}</p>
+    {% if page.xing %} 
     <p><a href="{{page.xing}}">Anmeldung via Xing erbeten.</a></p>
-    
+    {% endif %} 
   </header>
 
   <h2>Beschreibung</h2>
@@ -22,10 +23,13 @@ layout: default
   <h2>Sprecher</h2>
   <article class="post-content">
   	 {% if page.event.speaker.image %} 
-  	 	<img src="{{page.event.speaker.image}}" class="speaker-image">
+  	 	<img src="{{page.event.speaker.image | prepend: site.baseurl }}" class="speaker-image" />
   	 {% endif %} 	
      {{ page.event.speaker.bio }}
   </article>
+  {% if page.event.speaker.image %} 
+  <br style="clear:both"/>
+  {% endif %}   
   {% endif %} 	
   <h2>Ort</h2>
   <article class="post-content">

@@ -7,7 +7,8 @@ layout: default
 <ul>
 	{% for event in page.events %}
 	<li>
-		{{ event.date }}: <a href="{{ event.slug }}.html">{{ event.name }}</a>
+		 <span>{{ event.date }}:</span>
+        <a href="{{ site.baseurl }}/veranstaltungen/{{ event.slug }}.html">{{ event.name }}{% if event.speaker %} - {{ event.speaker.name }}{% endif %} </a>
 	</li>
 	{% endfor %}
 </ul>
