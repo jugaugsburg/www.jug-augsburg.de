@@ -1,4 +1,27 @@
 -
+  name: Flyway - Database Migration made easy.
+  date: 11.06.2015
+  time: "19:00"
+  description: >
+      Versionskontrolle sieht man heute als eine Selbstverständlichkeit. Und das ist sie auch, für Code. Auf der Datenbankseite findet Schemaevolution oft ad-hoc statt: ein schnelles Statement hier, ein kleines Skript dort. Das Ergebnis: Verwirrung und Ungewissheit. Ist dieses Update bereits auf dieser Instanz ausgeliefert? Sollten wir zuerst dieses andere Skript ausführen? Wird unsere Anwendung mit dieser Datenbank laufen können?
+      Schluss mit dem Chaos! Mit dem Einsatz von Datenbankmigrationstools wie Flyway fegen Sie diese Probleme vom Tisch und schaffen stattdessen Vertrauen und Zuverlässigkeit. Nach Ablauf dieser Session werden Sie ein gründliches Verständnis darüber haben was Flyway leistet, wie es funktioniert und wie man es optimal in einem Projekt integriert. Wir werden uns sowohl Konzepten als auch Lösungen anschauen. Wir gehen die harten Problemen an, und beantworten die Frage wie sich das alles in einem Continuous Delivery und Zero Downtime Workflow integrieren lässt. Diese Session wird Ihren Umgang mit der Datenbank gründlich und dauerhaft ändern. Es gibt keinen Weg zurück.
+  speaker: 
+    name: Axel Fontaine
+    bio: > 
+      Axel Fontaine is the founder and CEO of Boxfuse (boxfuse.com), letting you go from JVM app to secure & immutable machine image in seconds.
+      
+      Axel is also the creator and project lead of Flyway (flywaydb.org), the open-source tool that makes database migration easy.
+      
+      He is a JavaOne Rockstar and a regular speaker at many large international conferences including JavaOne, Devoxx, Jfokus, JavaZone, JAX, ...
+      
+      You can find him online at axelfontaine.com and on Twitter as @axelfontaine
+    image: /images/speaker/2015/axel-fontaine.jpg
+  address:
+    name: SHI GmbH & Co. KG
+    street: Curt-Frenzel-Str. 12
+    place: 86167 Augsburg
+
+-
   name: Plug-in-Entwicklung für die IntelliJ Plattform
   date: 28.05.2015
   time: "19:00"
