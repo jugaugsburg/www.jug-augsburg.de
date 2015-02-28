@@ -7,11 +7,11 @@
     <div class="footer-col-wrapper">
       <div class="footer-col  footer-col-1">
         <ul class="contact-list">
-          <li>{{ site.title }}</li>
+          <!-- <li>{{ site.title }}</li>  -->
           <li><a href="mailto:{{ site.email }}">{{ site.email }}</a></li>
-          <li><a href="http://www.ijug.eu/" target="_new"><img src="{{site.baseurl}}/images/partners/ijug.jpg" /></a></li>
-          <li><a href="http://www.java.net" target="_new"><img src="{{site.baseurl}}/images/partners/java-net.png" /></a></li>
         </ul>
+        <a href="http://www.ijug.eu/" target="_new"><img width="150px" src="{{site.baseurl}}/images/partners/ijug.jpg" /></a>
+	  
       </div>
 
       <div class="footer-col  footer-col-2">
@@ -29,7 +29,7 @@
             </a>
           </li>
           {% endif %}
-
+		<!--  
           {% if site.twitter_username %}
           <li>
             <a href="https://twitter.com/{{ site.twitter_username }}">
@@ -44,17 +44,22 @@
             </a>
           </li>
           {% endif %}
-
+		
           <li>
             <a href="{{ "/feed.xml" | prepend: site.baseurl }}">Subscribe via RSS</a>
           </li>
+          -->	
         </ul>
+        <a href="http://www.java.net" target="_new"><img width="150px" src="{{site.baseurl}}/images/partners/java-net.png" /></a>
+	    
       </div>
 
       <div class="footer-col  footer-col-3">
         <p class="text">{{ site.description }}</p>
       </div>
     </div>
+    
+    
 
   </div>
 
