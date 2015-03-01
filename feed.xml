@@ -4,10 +4,10 @@
     <title>Java Usergroup Augsburg</title>
     <description>Java Usergroup Augsburg: Infos, Veranstaltungen und Hintergründe. Wir sind eine Gruppe unabhängiger Java-Programmierer, die Spaß an gemeinsamer Fortbildung haben.
 </description>
-    <link>http://yourdomain.com/www.jug-augsburg.de/</link>
-    <atom:link href="http://yourdomain.com/www.jug-augsburg.de/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sun, 01 Mar 2015 12:30:26 +0100</pubDate>
-    <lastBuildDate>Sun, 01 Mar 2015 12:30:26 +0100</lastBuildDate>
+    <link>http://www.jug-augsburg.de/</link>
+    <atom:link href="http://www.jug-augsburg.de/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Sun, 01 Mar 2015 13:12:26 +0100</pubDate>
+    <lastBuildDate>Sun, 01 Mar 2015 13:12:26 +0100</lastBuildDate>
     <generator>Jekyll v2.5.3</generator>
     
       <item>
@@ -28,8 +28,8 @@
 
 </description>
         <pubDate>Tue, 17 Feb 2015 12:12:34 +0100</pubDate>
-        <link>http://yourdomain.com/www.jug-augsburg.de/jekyll/update/2015/02/17/welcome-to-jekyll.html</link>
-        <guid isPermaLink="true">http://yourdomain.com/www.jug-augsburg.de/jekyll/update/2015/02/17/welcome-to-jekyll.html</guid>
+        <link>http://www.jug-augsburg.de/jekyll/update/2015/02/17/welcome-to-jekyll.html</link>
+        <guid isPermaLink="true">http://www.jug-augsburg.de/jekyll/update/2015/02/17/welcome-to-jekyll.html</guid>
         
         
         <category>jekyll</category>
