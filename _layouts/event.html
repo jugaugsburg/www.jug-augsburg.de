@@ -7,7 +7,18 @@ layout: default
     <h1 class="post-title">{{ page.event.name }}</h1>
     <p>
 		{% if page.event.speaker %}Sprecher: {{page.event.speaker.name}}. <br/>{% endif %} 
-    	Zeit: {{page.event.date}}, {{page.event.time}}. Ort: {{ page.event.address.name }}</p>
+		<br/>
+		<div>
+			<div style="float:left">
+				Zeit: {{page.event.date}}, {{page.event.time}}. Ort: {{ page.event.address.name }}
+			</div>
+			<div style="float:right">
+				{% if page.event.ics %}
+  					<a href="{{page.event.ics}}"><img width="15px" src="../images/icons/calendar.png" />Download für Kalender</a>
+  				{% endif %} 	
+			</div>
+		</div>
+    	<br style="clear:both" />
     {% if page.xing %} 
     <p><a href="{{page.xing}}">Anmeldung via Xing erbeten.</a></p>
     {% endif %} 
@@ -37,5 +48,14 @@ layout: default
     {{ page.event.address.street }}<br/>
     {{ page.event.address.place }}<br/>
   </article>
-
+ 	
+  <article class="post-content">
+  	{% if page.event.download %}
+  		<h4>Downloads</h4>
+  		<a href="{{page.event.download.url}}">{{page.event.download.name}}</a>
+  	{% endif %} 
+  </article>
+ 	 
+ 
+ 
 </div>

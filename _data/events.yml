@@ -20,6 +20,7 @@
     name: SHI GmbH & Co. KG
     street: Curt-Frenzel-Str. 12
     place: 86167 Augsburg
+  ics : /resources/ics/flyway.ics
 
 -
   name: Plug-in-Entwicklung für die IntelliJ Plattform
@@ -52,6 +53,8 @@
     name: SHI GmbH & Co. KG
     street: Curt-Frenzel-Str. 12
     place: 86167 Augsburg
+  
+  ics: /resources/ics/intellij_plugin.ics
 -
   name: Don't be that guy! 
   date: 30.04.2015
@@ -83,7 +86,8 @@
   address:
     name: SHI GmbH & Co. KG
     street: Curt-Frenzel-Str. 12
-    place: 86167 Augsburg    
+    place: 86167 Augsburg  
+  ics: /resources/ics/security_awerness.ics  
 -
   name: Stammtisch
   date: 26.02.2015
@@ -116,3 +120,6 @@
     name: SHI GmbH & Co. KG
     street: Curt-Frenzel-Str. 12
     place: 86167 Augsburg
+  download:
+    name: Folien zum Vortrag
+    url: /resources/downloads/JUG_Folien_BulkCrawler_SpringBatch.pdf

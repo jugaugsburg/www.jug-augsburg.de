@@ -1,0 +1,49 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//XING//www.xing.com//version 2.0//DE
+METHOD:PUBLISH
+CALSCALE:Gregorian
+BEGIN:VEVENT
+DTSTAMP:20150307T163110Z
+DTSTART:20150611T170000Z
+DTEND:20150611T190000Z
+SEQUENCE:0
+URL:https://www.xing.com/events/vortrag-flyway-database-migration-made-easy
+ -1525057
+UID:https://www.xing.com/events/vortrag-flyway-database-migration-made-easy
+ -1525057
+SUMMARY:Vortrag : Flyway - Database Migration made easy
+DESCRIPTION:Beschreibung  :\nVersionskontrolle sieht man heute als eine Sel
+ bstverständlichkeit. Und das ist sie auch\, für Code. Auf der Datenbankseit
+ e findet Schemaevolution oft ad-hoc statt: ein schnelles Statement hier\, e
+ in kleines Skript dort. Das Ergebnis: Verwirrung und Ungewissheit. Ist dies
+ es Update bereits auf dieser Instanz ausgeliefert? Sollten wir zuerst diese
+ s andere Skript ausführen? Wird unsere Anwendung mit dieser Datenbank laufe
+ n können?\nSchluss mit dem Chaos! Mit dem Einsatz von Datenbankmigrationsto
+ ols wie Flyway fegen Sie diese Probleme vom Tisch und schaffen stattdessen 
+ Vertrauen und Zuverlässigkeit. Nach Ablauf dieser Session werden Sie ein gr
+ ündliches Verständnis darüber haben was Flyway leistet\, wie es funktionier
+ t und wie man es optimal in einem Projekt integriert. Wir werden uns sowohl
+  Konzepten als auch Lösungen anschauen. Wir gehen die harten Problemen an\,
+  und beantworten die Frage wie sich das alles in einem Continuous Delivery 
+ und Zero Downtime Workflow integrieren lässt. Diese Session wird Ihren Umga
+ ng mit der Datenbank gründlich und dauerhaft ändern. Es gibt keinen Weg zur
+ ück.\nSprecher  :\nAxel Fontaine is an entrepreneur\, public speaker\, cont
+ inuous delivery expert and independent consultant based in Munich. He speci
+ alizes in Continuous Delivery and hates complexity with a passion. He is th
+ e founder and the project lead of Flyway (flywaydb.org)\, the agile databas
+ e migration framework for Java. He regularly speaks at technical conference
+ s. He currently works on Boxfuse (boxfuse.com) to radically simplify the de
+ ployment of Java apps\, by turning them into ultra-compact perfectly isolat
+ ed secure VMs within seconds and deploying them on any hypervisor with a si
+ ngle command. You can find him online at axelfontaine.com and on Twitter as
+  @axelfontaine
+LOCATION:SHI GmbH & Co. KG\, Curt-Frenzel-Str. 12\, 86167\, Augsburg\, Deut
+ schland
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Vortrag : Flyway - Database Migration made easy
+TRIGGER:-PT15M
+END:VALARM
+END:VEVENT
+END:VCALENDAR
