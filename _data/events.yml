@@ -23,6 +23,7 @@
     name: SHI GmbH & Co. KG
     street: Curt-Frenzel-Str. 12
     place: 86167 Augsburg
+  ics : /resources/ics/lambdas_streams.ics
 -
   name: Flyway - Database Migration made easy.
   date: 11.06.2015

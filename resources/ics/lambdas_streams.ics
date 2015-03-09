@@ -1,0 +1,40 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//XING//www.xing.com//version 2.0//DE
+METHOD:PUBLISH
+CALSCALE:Gregorian
+BEGIN:VEVENT
+DTSTAMP:20150309T190207Z
+DTSTART:20150730T170000Z
+DTEND:20150730T215959Z
+SEQUENCE:0
+URL:https://www.xing.com/events/vortrag-lambdas-streams-java-8-angelika-lan
+ ger-1531709
+UID:https://www.xing.com/events/vortrag-lambdas-streams-java-8-angelika-lan
+ ger-1531709
+SUMMARY:Vortrag : Lambdas & Streams in Java 8 mit Angelika Langer
+DESCRIPTION:Beschreibung : \nDie Session widmet sich den wichtigsten Neueru
+ ngen von Java 8: Es geht einerseits um neue Sprachmittel (Lambda-Ausdrücke\
+ , Methoden-/Konstruktor-Referenzen) und andererseits um die Erweiterungen d
+ es Collection-Framework des JDK (Streams\, Collectoren\, Functional Interfa
+ ces). Insbesondere das Stream-API ist umfangreich und seine effiziente Nutz
+ ung erfordert einen guten Überblick über das API und seine Möglichkeiten.\n
+ Sprecher:\nAngelika Langer arbeitet als Trainer und Consultant mit eigenem 
+ Schulungsprogramm im Bereich der Software-Entwicklung mit C++ und Java. Sie
+  ist Sprecher auf zahlreichen Konferenzen\, darunter JavaOne\, OOPLSA\, JAX
+ \, und viele andere (siehe lanyrd.com/profile/angelikalanger/). Sie ist u.a
+ . Autor der OnlineRessourcen “Java Generics FAQ” und “Lambda Tutorial & Ref
+ erence” unter www.AngelikaLanger.com. Gemeinsam mit Klaus Kreft ist sie Aut
+ or zahlreicher Veröffentlichungen\, darunter die Kolumne “Effective Java” i
+ m JavaMagazin und das Buch “Java Core Programmierung – Memory Modell und Ga
+ rbage Collection”. Weitere Informationen unter www.AngelikaLanger.com. Twit
+ ter: @AngelikaLanger
+LOCATION:SHI GmbH & Co. KG\, Curt-Frenzel-Str. 12\, 86167\, Augsburg\, Deut
+ schland
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Vortrag : Lambdas & Streams in Java 8 mit Angelika Langer
+TRIGGER:-PT15M
+END:VALARM
+END:VEVENT
+END:VCALENDAR
