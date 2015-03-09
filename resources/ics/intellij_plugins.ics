@@ -1,0 +1,46 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//XING//www.xing.com//version 2.0//DE
+METHOD:PUBLISH
+CALSCALE:Gregorian
+BEGIN:VEVENT
+DTSTAMP:20150307T164838Z
+DTSTART:20150528T170000Z
+DTEND:20150528T190000Z
+SEQUENCE:0
+URL:https://www.xing.com/events/vortrag-plug-entwicklung-intellij-plattform
+ -1525054
+UID:https://www.xing.com/events/vortrag-plug-entwicklung-intellij-plattform
+ -1525054
+SUMMARY:Vortrag : Plug-in-Entwicklung für IntelliJ Plattform
+DESCRIPTION:Beschreibung : \nDie Open-Source-Plattform von IntelliJ IDEA is
+ t die Basis für eine Reihe kommerzieller und frei verfügbarer IDEs mit Unte
+ rstützung einer Vielzahl von Sprachen und Technologien. Nicht zuletzt Googl
+ es Wahl\, mit Android Studio darauf zu setzen\, führt zu einer stetig steig
+ enden Verbreitung. Aber welche Möglichkeiten bieten sich hier dem Plug-in-E
+ ntwickler? Worin liegen die Unterschiede zu Eclipse und NetBeans? Was für E
+ rweiterungen kann ich entwickeln und welche Hilfsmittel und Dokumentation s
+ ind verfügbar? Nach Klärung dieser Fragen wenden wir uns konkreten Beispiel
+ en zu: \nUnterstützung neuer Programmiersprachen\, Frameworks\, kleinere To
+ ols für die tägliche Arbeit und vieles andere mehr. Nach diesem Überblick h
+ aben Sie vielleicht schon eine Idee für Ihr erstes eigenes Plug-in. Abgerun
+ det wird das Ganze durch "Lessons Learned" und "Best Practices" aus eigener
+  langjähriger Erfahrung des Vortragenden. Aber die IntelliJ-Plattform selbs
+ t ist natürlich auch offen für Beiträge aus der Community. Oder vielleicht 
+ spielen Sie gar mit dem Gedanken eine darauf basierende Standalone-IDE zu e
+ ntwickeln? Ein Ausblick auf zukünftige Entwicklungen sowie eine Q&A bilden 
+ den Abschluss\nSprecher : \nYann Cébron\nJetBrains GmbH\nYann ist seit knap
+ p 10 Jahren im IntelliJ IDEA-Umfeld als Plugin-Entwickler unterwegs.\nSein 
+ Schwerpunkt bei JetBrains liegt beim Spring Framework Support sowie der Wei
+ terentwicklung des Toolings für Plugin Entwickler.\nWenn er nicht gerade am
+  Rechner sitzt\, findet man ihn vermutlich am Klavier oder draussen unterwe
+ gs mit seinem Hund.
+LOCATION:SHI GmbH & Co. KG\, Curt-Frenzel-Str. 12\, 86167\, Augsburg\, Deut
+ schland
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Vortrag : Plug-in-Entwicklung für IntelliJ Plattform
+TRIGGER:-PT15M
+END:VALARM
+END:VEVENT
+END:VCALENDAR

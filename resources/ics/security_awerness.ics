@@ -1,0 +1,40 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//XING//www.xing.com//version 2.0//DE
+METHOD:PUBLISH
+CALSCALE:Gregorian
+BEGIN:VEVENT
+DTSTAMP:20150307T165030Z
+DTSTART:20150430T170000Z
+DTEND:20150430T215959Z
+SEQUENCE:0
+URL:https://www.xing.com/events/vortrag-don-be-that-guy-developer-security-
+ awareness-markus-eisele-1524202
+UID:https://www.xing.com/events/vortrag-don-be-that-guy-developer-security-
+ awareness-markus-eisele-1524202
+SUMMARY:Vortrag : "Don't be that guy! Developer Security Awareness" mit Mar
+ kus Eisele
+DESCRIPTION:Beschreibung : \nAll the common attacks we've known about for a
+  very long time are\nstill out there\, and people still regularly make mist
+ akes regarding\nthem. This is an engaging session about Java EE technology\
+ , people\,\nand processes and how they best work together to build a suitab
+ le\nsecure system. Derived from practice for use with everyday\ndevelopment
+ \, such a system can make the Java EE space a little more secure.\nSprecher
+  : \nMarkus is a Developer Advocate at Red Hat and focuses on JBoss Middlew
+ are. He is working with Java EE servers from different vendors since more t
+ han 14 years and talks about his favorite topics around Java EE on conferen
+ ces all over the world. He has been a principle consultant and worked with 
+ different customers on all kinds of Java EE related applications and soluti
+ ons. Beside that he has always been a prolific blogger\, writer and tech ed
+ itor for different Java EE related books. He is an active member of the Ger
+ man DOAG e.V. and it's representative on the iJUG e.V. As a Java Champion a
+ nd former ACE Director he is well known in the community.
+LOCATION:SHI GmbH\, Curt-Frenzel-Str. 12\, 86167\, Augsburg\, Deutschland
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Vortrag : "Don't be that guy! Developer Security Awareness" mit
+  Markus Eisele
+TRIGGER:-PT15M
+END:VALARM
+END:VEVENT
+END:VCALENDAR
