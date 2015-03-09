@@ -1,4 +1,29 @@
 -
+  name: Lambdas & Streams in Java 8
+  date: 30.07.2015
+  time: "19:00"
+  description: >
+      Die Session widmet sich den wichtigsten Neuerungen von Java 8: Es geht einerseits um neue Sprachmittel
+      (Lambda-Ausdrücke, Methoden-/Konstruktor-Referenzen) und andererseits um die Erweiterungen des
+      Collection-Framework des JDK (Streams, Collectoren, Functional Interfaces). Insbesondere das Stream-API
+      ist umfangreich und seine effiziente Nutzung erfordert einen guten Überblick über das API und seine
+      Möglichkeiten.
+  speaker: 
+    name: Angelika Langer
+    bio: > 
+      Angelika Langer arbeitet als Trainer und Consultant mit eigenem Schulungsprogramm im Bereich der
+      Software-Entwicklung mit C++ und Java. Sie ist Sprecher auf zahlreichen Konferenzen, darunter JavaOne,
+      OOPLSA, JAX, und viele andere (siehe lanyrd.com/profile/angelikalanger/). Sie ist u.a. Autor der OnlineRessourcen
+      “Java Generics FAQ” und “Lambda Tutorial & Reference” unter www.AngelikaLanger.com.
+      Gemeinsam mit Klaus Kreft ist sie Autor zahlreicher Veröffentlichungen, darunter die Kolumne “Effective
+      Java” im JavaMagazin und das Buch “Java Core Programmierung – Memory Modell und Garbage Collection”.
+      Weitere Informationen unter www.AngelikaLanger.com. Twitter: @AngelikaLanger
+    image: /images/speaker/2015/angelika-langer.jpg
+  address:
+    name: SHI GmbH & Co. KG
+    street: Curt-Frenzel-Str. 12
+    place: 86167 Augsburg
+-
   name: Flyway - Database Migration made easy.
   date: 11.06.2015
   time: "19:00"
@@ -21,7 +46,6 @@
     street: Curt-Frenzel-Str. 12
     place: 86167 Augsburg
   ics : /resources/ics/flyway.ics
-
 -
   name: Plug-in-Entwicklung für die IntelliJ Plattform
   date: 28.05.2015
@@ -53,7 +77,6 @@
     name: SHI GmbH & Co. KG
     street: Curt-Frenzel-Str. 12
     place: 86167 Augsburg
-  
   ics: /resources/ics/intellij_plugin.ics
 -
   name: Don't be that guy! 
