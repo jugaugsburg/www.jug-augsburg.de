@@ -26,7 +26,7 @@
   ics : /resources/ics/lambdas_streams.ics
 -
   name: Flyway - Database Migration made easy.
-  date: 11.06.2015
+  date: 25.06.2015
   time: "19:00"
   description: >
       Versionskontrolle sieht man heute als eine Selbstverständlichkeit. Und das ist sie auch, für Code. Auf der Datenbankseite findet Schemaevolution oft ad-hoc statt: ein schnelles Statement hier, ein kleines Skript dort. Das Ergebnis: Verwirrung und Ungewissheit. Ist dieses Update bereits auf dieser Instanz ausgeliefert? Sollten wir zuerst dieses andere Skript ausführen? Wird unsere Anwendung mit dieser Datenbank laufen können?
