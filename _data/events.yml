@@ -25,6 +25,28 @@
     place: 86167 Augsburg
   ics : /resources/ics/lambdas_streams.ics
 -
+  name: Modernes Java-Komponentendesign mit Spring 4.2
+  date: 08.07.2015
+  time: "19:00"
+  description: >
+      Dieser Vortrag stellt ausgewählte Features des Spring-Komponentenmodells vor, 
+      mit einem Schwerpunkt auf das im Juli erscheinende Spring Framework 4.2. 
+      Die Themen reichen vom umfassenden Support für Java 8 bis hin zu 
+      annotationsbasiertem Messaging, Caching und Event-Handling, illustriert 
+      mit Code-Beispielen und vielen Erläuterungen zur Design-Philosophie in Spring.
+  speaker: 
+    name: Jürgen Höller
+    bio: > 
+      Jürgen Höller ist Mitbegründer des Open-Source-Projekts "Spring Framework" und 
+      begleitet das Kernprojekt bereits seit 2003 als Projektleiter und Releasemanager. 
+      Er ist ein erfahrener Softwarearchitekt und Berater mit besonderer Expertise 
+      in Codeorganisation, Transaktionsmanagement und Messaging in Unternehmensanwendungen.
+    image: /images/speaker/2015/juergen-hoeller.jpg
+  address:
+    name: SHI GmbH & Co. KG
+    street: Curt-Frenzel-Str. 12
+    place: 86167 Augsburg  
+-
   name: Flyway - Database Migration made easy.
   date: 25.06.2015
   time: "19:00"
