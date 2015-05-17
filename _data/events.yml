@@ -46,6 +46,7 @@
     name: SHI GmbH & Co. KG
     street: Curt-Frenzel-Str. 12
     place: 86167 Augsburg  
+  ics : /resources/ics/hoeller_08072015.ics
 -
   name: Flyway - Database Migration made easy.
   date: 25.06.2015
