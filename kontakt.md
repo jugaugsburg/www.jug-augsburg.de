@@ -20,6 +20,5 @@ sympa@jugausgburg.java.net schreiben und als Betreff entweder
  
 ## XING-Forum
  
-Sie finden uns auch auf XING:
+Sie finden uns auch auf [XING](https://www.xing.com/communities/groups/java-user-group-augsburg-404e-1022637)
  
-https://www.xing.com/communities/groups/java-user-group-augsburg-404e-1022637
