@@ -254,6 +254,7 @@
 }
 
 .sponsor-col {
+    height: 80px;
     float: left;
     margin-bottom: $spacing-unit / 2;
     padding-left: $spacing-unit / 2;
@@ -261,6 +262,14 @@
     width:         calc(33% - (#{$spacing-unit} / 2));
 }
 
+@media (max-width: 500px) {
+    .sponsor-col {
+        float: none;
+        height: inherit;
+        text-align:center;
+        width: 100%;
+    }
+}
 
 
 
