@@ -322,12 +322,19 @@ pre {
   margin-left: -15px; }
 
 .sponsor-col {
+  height: 80px;
   float: left;
   margin-bottom: 15px;
   padding-left: 15px;
   width: -webkit-calc(33% - (30px / 2));
   width: calc(33% - (30px / 2)); }
 
+@media (max-width: 500px) {
+  .sponsor-col {
+    float: none;
+    height: inherit;
+    text-align: center;
+    width: 100%; } }
 .contact-list img {
   max-width: 100px;
   max-height: 60px; }

@@ -1,0 +1,34 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//XING//www.xing.com//version 2.0//DE
+METHOD:PUBLISH
+CALSCALE:Gregorian
+BEGIN:VEVENT
+DTSTAMP:20150517T120945Z
+DTSTART:20150708T170000Z
+DTEND:20150708T190000Z
+SEQUENCE:0
+URL:https://www.xing.com/events/java-komponentendesign-spring-4-2-jurgen-ho
+ ller-1557513
+UID:https://www.xing.com/events/java-komponentendesign-spring-4-2-jurgen-ho
+ ller-1557513
+SUMMARY:Java-Komponentendesign mit Spring 4.2 mit Jürgen Höller
+DESCRIPTION:Dieser Vortrag stellt ausgewählte Features des Spring-Komponent
+ enmodells vor\, mit einem Schwerpunkt auf das im Juli erscheinende Spring F
+ ramework 4.2. Die Themen reichen vom umfassenden Support für Java 8 bis hin
+  zu annotationsbasiertem Messaging\, Caching und Event-Handling\, illustrie
+ rt mit Code-Beispielen und vielen Erläuterungen zur Design-Philosophie in S
+ pring.\nJürgen Höller ist Mitbegründer des Open-Source-Projekts "Spring Fra
+ mework" und begleitet das Kernprojekt bereits seit 2003 als Projektleiter u
+ nd Releasemanager. Er ist ein erfahrener Softwarearchitekt und Berater mit 
+ besonderer Expertise in Codeorganisation\, Transaktionsmanagement und Messa
+ ging in Unternehmensanwendungen.
+LOCATION:SHI GmbH & Co. KG\, Curt-Frenzel-Str. 12\, 86167\, Augsburg\, Deut
+ schland
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Java-Komponentendesign mit Spring 4.2 mit Jürgen Höller
+TRIGGER:-PT15M
+END:VALARM
+END:VEVENT
+END:VCALENDAR
