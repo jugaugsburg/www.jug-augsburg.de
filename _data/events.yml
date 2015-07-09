@@ -8,9 +8,9 @@
       Collection-Framework des JDK (Streams, Collectoren, Functional Interfaces). Insbesondere das Stream-API
       ist umfangreich und seine effiziente Nutzung erfordert einen guten Überblick über das API und seine
       Möglichkeiten.
-  speaker: 
+  speaker:
     name: Angelika Langer
-    bio: > 
+    bio: >
       Angelika Langer arbeitet als Trainer und Consultant mit eigenem Schulungsprogramm im Bereich der
       Software-Entwicklung mit C++ und Java. Sie ist Sprecher auf zahlreichen Konferenzen, darunter JavaOne,
       OOPLSA, JAX, und viele andere (siehe lanyrd.com/profile/angelikalanger/). Sie ist u.a. Autor der OnlineRessourcen
@@ -29,24 +29,27 @@
   date: 08.07.2015
   time: "19:00"
   description: >
-      Dieser Vortrag stellt ausgewählte Features des Spring-Komponentenmodells vor, 
-      mit einem Schwerpunkt auf das im Juli erscheinende Spring Framework 4.2. 
-      Die Themen reichen vom umfassenden Support für Java 8 bis hin zu 
-      annotationsbasiertem Messaging, Caching und Event-Handling, illustriert 
+      Dieser Vortrag stellt ausgewählte Features des Spring-Komponentenmodells vor,
+      mit einem Schwerpunkt auf das im Juli erscheinende Spring Framework 4.2.
+      Die Themen reichen vom umfassenden Support für Java 8 bis hin zu
+      annotationsbasiertem Messaging, Caching und Event-Handling, illustriert
       mit Code-Beispielen und vielen Erläuterungen zur Design-Philosophie in Spring.
-  speaker: 
+  speaker:
     name: Jürgen Höller
-    bio: > 
-      Jürgen Höller ist Mitbegründer des Open-Source-Projekts "Spring Framework" und 
-      begleitet das Kernprojekt bereits seit 2003 als Projektleiter und Releasemanager. 
-      Er ist ein erfahrener Softwarearchitekt und Berater mit besonderer Expertise 
+    bio: >
+      Jürgen Höller ist Mitbegründer des Open-Source-Projekts "Spring Framework" und
+      begleitet das Kernprojekt bereits seit 2003 als Projektleiter und Releasemanager.
+      Er ist ein erfahrener Softwarearchitekt und Berater mit besonderer Expertise
       in Codeorganisation, Transaktionsmanagement und Messaging in Unternehmensanwendungen.
     image: /images/speaker/2015/juergen-hoeller.jpg
   address:
     name: SHI GmbH & Co. KG
     street: Curt-Frenzel-Str. 12
-    place: 86167 Augsburg  
+    place: 86167 Augsburg
   ics : /resources/ics/hoeller_08072015.ics
+  download:
+    name: "Folien zum Vortrag"
+    url: /resources/downloads/juergenhoeller-spring-4.2-component-design.pdf
 -
   name: Flyway - Database Migration made easy.
   date: 25.06.2015
@@ -54,15 +57,15 @@
   description: >
       Versionskontrolle sieht man heute als eine Selbstverständlichkeit. Und das ist sie auch, für Code. Auf der Datenbankseite findet Schemaevolution oft ad-hoc statt: ein schnelles Statement hier, ein kleines Skript dort. Das Ergebnis: Verwirrung und Ungewissheit. Ist dieses Update bereits auf dieser Instanz ausgeliefert? Sollten wir zuerst dieses andere Skript ausführen? Wird unsere Anwendung mit dieser Datenbank laufen können?
       Schluss mit dem Chaos! Mit dem Einsatz von Datenbankmigrationstools wie Flyway fegen Sie diese Probleme vom Tisch und schaffen stattdessen Vertrauen und Zuverlässigkeit. Nach Ablauf dieser Session werden Sie ein gründliches Verständnis darüber haben was Flyway leistet, wie es funktioniert und wie man es optimal in einem Projekt integriert. Wir werden uns sowohl Konzepten als auch Lösungen anschauen. Wir gehen die harten Problemen an, und beantworten die Frage wie sich das alles in einem Continuous Delivery und Zero Downtime Workflow integrieren lässt. Diese Session wird Ihren Umgang mit der Datenbank gründlich und dauerhaft ändern. Es gibt keinen Weg zurück.
-  speaker: 
+  speaker:
     name: Axel Fontaine
-    bio: > 
+    bio: >
       Axel Fontaine is the founder and CEO of Boxfuse (boxfuse.com), letting you go from JVM app to secure & immutable machine image in seconds.
-      
+
       Axel is also the creator and project lead of Flyway (flywaydb.org), the open-source tool that makes database migration easy.
-      
+
       He is a JavaOne Rockstar and a regular speaker at many large international conferences including JavaOne, Devoxx, Jfokus, JavaZone, JAX, ...
-      
+
       You can find him online at axelfontaine.com and on Twitter as @axelfontaine
     image: /images/speaker/2015/axel-fontaine.jpg
   address:
@@ -75,24 +78,24 @@
   date: 28.05.2015
   time: "19:00"
   description: >
-      Die Open-Source-Plattform von IntelliJ IDEA ist die Basis für eine Reihe 
-      kommerzieller und frei verfügbarer IDEs mit Unterstützung einer Vielzahl von 
-      Sprachen und Technologien. Nicht zuletzt Googles Wahl, mit Android Studio 
-      darauf zu setzen, führt zu einer stetig steigenden Verbreitung. Aber welche 
-      Möglichkeiten bieten sich hier dem Plug-in-Entwickler? Worin liegen die 
-      Unterschiede zu Eclipse und NetBeans? Was für Erweiterungen kann ich entwickeln 
-      und welche Hilfsmittel und Dokumentation sind verfügbar? Nach Klärung dieser 
-      Fragen wenden wir uns konkreten Beispielen zu: Unterstützung neuer Programmiersprachen, 
-      Frameworks, kleinere Tools für die tägliche Arbeit und vieles andere mehr. 
-      Nach diesem Überblick haben Sie vielleicht schon eine Idee für Ihr erstes eigenes Plug-in. 
-      Abgerundet wird das Ganze durch "Lessons Learned" und "Best Practices" aus eigener 
-      langjähriger Erfahrung des Vortragenden. Aber die IntelliJ-Plattform selbst ist 
-      natürlich auch offen für Beiträge aus der Community. Oder vielleicht spielen Sie 
-      gar mit dem Gedanken eine darauf basierende Standalone-IDE zu entwickeln? 
+      Die Open-Source-Plattform von IntelliJ IDEA ist die Basis für eine Reihe
+      kommerzieller und frei verfügbarer IDEs mit Unterstützung einer Vielzahl von
+      Sprachen und Technologien. Nicht zuletzt Googles Wahl, mit Android Studio
+      darauf zu setzen, führt zu einer stetig steigenden Verbreitung. Aber welche
+      Möglichkeiten bieten sich hier dem Plug-in-Entwickler? Worin liegen die
+      Unterschiede zu Eclipse und NetBeans? Was für Erweiterungen kann ich entwickeln
+      und welche Hilfsmittel und Dokumentation sind verfügbar? Nach Klärung dieser
+      Fragen wenden wir uns konkreten Beispielen zu: Unterstützung neuer Programmiersprachen,
+      Frameworks, kleinere Tools für die tägliche Arbeit und vieles andere mehr.
+      Nach diesem Überblick haben Sie vielleicht schon eine Idee für Ihr erstes eigenes Plug-in.
+      Abgerundet wird das Ganze durch "Lessons Learned" und "Best Practices" aus eigener
+      langjähriger Erfahrung des Vortragenden. Aber die IntelliJ-Plattform selbst ist
+      natürlich auch offen für Beiträge aus der Community. Oder vielleicht spielen Sie
+      gar mit dem Gedanken eine darauf basierende Standalone-IDE zu entwickeln?
       Ein Ausblick auf zukünftige Entwicklungen sowie eine Q&A bilden den Abschluss.
-  speaker: 
+  speaker:
     name: Yann Cébron
-    bio: > 
+    bio: >
       Yann ist seit knapp 10 Jahren im IntelliJ IDEA-Umfeld als Plugin-Entwickler unterwegs.
       Sein Schwerpunkt bei JetBrains liegt beim Spring Framework Support sowie der Weiterentwicklung des Toolings für Plugin Entwickler.
       Wenn er nicht gerade am Rechner sitzt, findet man ihn vermutlich am Klavier oder draussen unterwegs mit seinem Hund.
@@ -103,7 +106,7 @@
     place: 86167 Augsburg
   ics: /resources/ics/intellij_plugin.ics
 -
-  name: Don't be that guy! 
+  name: Don't be that guy!
   date: 30.04.2015
   time: "19:00"
   description: >
@@ -117,24 +120,24 @@
       secure.
       <br/><br/>
       <i>Der Talk findet in deutscher Sprache statt.</i>
-  speaker: 
+  speaker:
     name: Markus Eisele
-    bio: > 
-      Markus is a Developer Advocate at Red Hat and focuses on JBoss Middleware. 
-      He is working with Java EE servers from different vendors since more than 
-      14 years and talks about his favorite topics around Java EE on conferences 
-      all over the world. He has been a principle consultant and worked with 
-      different customers on all kinds of Java EE related applications and solutions. 
-      Beside that he has always been a prolific blogger, writer and tech editor for 
-      different Java EE related books. He is an active member of the German DOAG e.V. 
-      and it's representative on the iJUG e.V. As a Java Champion and former 
+    bio: >
+      Markus is a Developer Advocate at Red Hat and focuses on JBoss Middleware.
+      He is working with Java EE servers from different vendors since more than
+      14 years and talks about his favorite topics around Java EE on conferences
+      all over the world. He has been a principle consultant and worked with
+      different customers on all kinds of Java EE related applications and solutions.
+      Beside that he has always been a prolific blogger, writer and tech editor for
+      different Java EE related books. He is an active member of the German DOAG e.V.
+      and it's representative on the iJUG e.V. As a Java Champion and former
       ACE Director he is well known in the community.
     image: /images/speaker/2015/markus-eisele.jpg
   address:
     name: SHI GmbH & Co. KG
     street: Curt-Frenzel-Str. 12
-    place: 86167 Augsburg  
-  ics: /resources/ics/security_awerness.ics  
+    place: 86167 Augsburg
+  ics: /resources/ics/security_awerness.ics
 -
   name: Stammtisch
   date: 26.02.2015
@@ -145,7 +148,7 @@
   address:
     name: Annapam
     street: Bäckergasse 23
-    place: 86150 Augsburg   
+    place: 86150 Augsburg
 -
   name: Bulk Web-Crawler mit Spring Batch
   date: 19.02.2015
@@ -156,13 +159,13 @@
 
     In dem Vortrag werden wir Schritt für Schritt den Aufbau eines Bulk-Web-Shop-Crawlers, mit dem aktuell ca. 1,2 Millionen Objekt crawlt werden, nachvollziehen. Dabei werden wir zunächst die Analyse der Ziel-Web-Sites durchführen und hierfür eine Java-Implementierung erstellen.
     Im zweiten Schritt werden wir die Analyse-Komponente in das Spring-Batch-Frameworks einbetten, indem wir partitionierte Jobs erstellen und eine einfache Status-Datenbank anbinden.
-  speaker: 
+  speaker:
     name: Stefan Ostermayr
-    bio: > 
-      Stefan Ostermayr ist leitender Software-Architekt bei der media-it und seit 10 Jahren im Bereich Enterprise IT tätig 
-      und setzt dort überwiegend Spring- und J2EE-Technologie ein. Sein besonderes Interesse gilt der Optimierung von 
+    bio: >
+      Stefan Ostermayr ist leitender Software-Architekt bei der media-it und seit 10 Jahren im Bereich Enterprise IT tätig
+      und setzt dort überwiegend Spring- und J2EE-Technologie ein. Sein besonderes Interesse gilt der Optimierung von
       Batch-Systemen, Datenbanken und dem Einsatz von Web-Technologien.
-    image: 
+    image:
   address:
     name: SHI GmbH & Co. KG
     street: Curt-Frenzel-Str. 12
