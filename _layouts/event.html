@@ -35,7 +35,10 @@ layout: default
   <article class="post-content">
   	 {% if page.event.speaker.image %} 
   	 	<img src="{{page.event.speaker.image | prepend: site.baseurl }}" class="speaker-image" />
-  	 {% endif %} 	
+  	 {% endif %}
+  	 {% if page.event.speaker.image2 %} 
+  	 	<img src="{{page.event.speaker.image2 | prepend: site.baseurl }}" class="speaker-image" />
+  	 {% endif %}  	
      {{ page.event.speaker.bio }}
   </article>
   {% if page.event.speaker.image %} 
