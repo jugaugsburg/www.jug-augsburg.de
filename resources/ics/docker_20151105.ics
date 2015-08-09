@@ -1,0 +1,51 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//XING//www.xing.com//version 2.0//DE
+METHOD:PUBLISH
+CALSCALE:Gregorian
+BEGIN:VEVENT
+DTSTAMP:20150809T133443Z
+DTSTART:20151105T180000Z
+DTEND:20151105T200000Z
+SEQUENCE:0
+URL:https://www.xing.com/events/teile-herrsche-verteilte-java-anwendungen-d
+ ocker-1587703
+UID:https://www.xing.com/events/teile-herrsche-verteilte-java-anwendungen-d
+ ocker-1587703
+SUMMARY:Teile und Herrsche - Verteilte Java-Anwendungen mit Docker
+DESCRIPTION:Abstract: \nDocker ist in aller Munde\; Gleichzeitig hört man v
+ om Tod der klassischen Java Application Server. Nur wenige neue Technologie
+ n haben in einer derart kurzen Zeitspanne so umfassend Fuß fassen können wi
+ e die erst 2013 erschienene Plattform zum Entwickeln und Betrieb verteilter
+  Anwendungen. Inzwischen mit einigem Risikokapital und namhaften Anwendern 
+ wie Red Hat\, ebay\, Google im Rücken\, ist die leichtgewichtige Virtualisi
+ erungslösung schon längst auf den Weg die Grundlage für neue Lösungsarchite
+ kturen zu formen.\nWelche Chancen und Vorteile mit Docker für die Entwicklu
+ ng\, das Deployment und den Betrieb von Java-Anwendungen ergeben\, das möch
+ te diese Session zeigen. Dazu erläutern wir die Funktionsweise und Konzepte
+  von Docker und machen uns daran die Faszination für typische Einsatzszenar
+ ien wie für Microservices näher zu ergründen. Im Live-Demo zeigen wir\, wie
+  leicht und schnell sich die eigene Anwendung als Container verschiffen und
+  betreiben lässt. Praktische Tipps\, wie z.B. zum Einsatz unter Windows ode
+ r den Risiken dieser Technologie ergänzen unseren Schnell-Einstieg und gebe
+ n damit Orientierung für den Weg vom Build bis zum Betrieb der eigenen Anwe
+ ndung unter Docker.\nBio Benjamin Schmid:\nBenjamin Schmid ist Technology A
+ dvisor bei der eXXcellent solutions und dort primärer Ansprechpartner in al
+ len technologischen und methodischen Fragestellungen und zudem auf der stet
+ igen Suche nach innovativen\, soliden und nachhaltigen Lösungen. Seine prax
+ isnahen Erfahrungen und Aha-Momente rund um Java\, Web und .NET gibt er dab
+ ei immer wieder gerne auf Konferenzen und in Fachartikeln weiter\nBio Ralph
+  Guderlei :\nDr. Ralph Guderlei ist Technology Advisor bei der eXXcellent s
+ olutions GmbH in Ulm. Neben der Arbeit als Architekt/Projektleiter in unter
+ schiedlichen Kundenprojekten berät er Teams in technologischen und methodis
+ chen Fragestellungen. Seine Schwerpunkte dabei sind zukunftsfähige Software
+ -Architekturen\, Web-Entwicklung und alternative JVM-Sprachen. 
+LOCATION:SHI GmbH & Co. KG\, Curt-Frenzel-Str. 12\, 86167\, Augsburg\, Deut
+ schland
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Teile und Herrsche - Verteilte Java-Anwendungen mit Docker
+TRIGGER:-PT15M
+END:VALARM
+END:VEVENT
+END:VCALENDAR
