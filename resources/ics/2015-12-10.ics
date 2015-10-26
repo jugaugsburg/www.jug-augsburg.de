@@ -1,0 +1,33 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//XING//www.xing.com//version 2.0//DE
+METHOD:PUBLISH
+CALSCALE:Gregorian
+BEGIN:VEVENT
+DTSTAMP:20151026T120132Z
+DTSTART:20151210T180000Z
+DTEND:20151210T193000Z
+SEQUENCE:0
+URL:https://www.xing.com/events/feel-kotlin-1615323
+UID:https://www.xing.com/events/feel-kotlin-1615323
+SUMMARY:The Feel of Kotlin
+DESCRIPTION:Kotlin is a new programming language currently in development a
+ t JetBrains\, targeting the JVM and JavaScript platforms. Kotlin's design i
+ s heavily focused on pragmatism and interoperability\, providing an alterna
+ tive to Java which is more safe\, concise and productive\, while maintainin
+ g the same performance and tooling quality. \nAt JetBrains\, we've been usi
+ ng Kotlin for a while now\, both for the development of the language itself
+  and for other projects\, and we've already gained a significant amount of 
+ experience with it. In this talk\, I will introduce the key features of Kot
+ lin\, in light of that experience: showing how Kotlin helps you improve you
+ r the day-to-day development process and the design of the code that you wr
+ ite. \nDieser Talk findet in Englisch statt!
+LOCATION:SHI GmbH & Co. KG\, Curt-Frenzel-Str. 12\, 86167\, Augsburg\, Deut
+ schland
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:The Feel of Kotlin
+TRIGGER:-PT15M
+END:VALARM
+END:VEVENT
+END:VCALENDAR

@@ -1,16 +1,52 @@
 -
+  name: The Feel of Kotlin
+  date: 10.12.2015
+  time: "19:00"
+  description: >
+    Kotlin is a new programming language currently in development at JetBrains,
+    targeting the JVM and JavaScript platforms. Kotlin's design is heavily focused
+    on pragmatism and interoperability, providing an alternative to Java which
+    is more safe, concise and productive, while maintaining the same
+    performance and tooling quality.
+    <br/><br/>
+    At JetBrains, we've been using Kotlin for a while now, both for the development
+    of the language itself and for other projects, and we've already gained a
+    significant amount of experience with it. In this talk, I will introduce
+    the key features of Kotlin, in light of that experience: showing how Kotlin
+    helps you improve your the day-to-day development process and the design
+    of the code that you write.
+    <br/><br>
+    <b>Dieser Talk findet in Englisch statt!</b>
+  speaker:
+    name: Dmitry Jemerov
+    bio: >
+      Dmitry has been with JetBrains since 2003, working on different projects,
+      primarily around the IntelliJ Platform. He was one of the early contributors
+      to Kotlin; in particular, he created the initial version of the Java
+      bytecode generator in the compiler. After spending most of 2014 working
+      at Google, Dmitry is now back at JetBrains and on the Kotlin team.
+
+      He's leading the team responsible for the Kotlin support in IntelliJ IDEA,
+      as well as co-authoring a book about Kotlin to be published by Manning.
+    image: /images/speaker/2015/dmitry-jemerov.jpg
+  address:
+    name: SHI GmbH & Co. KG
+    street: Curt-Frenzel-Str. 12
+    place: 86167 Augsburg
+  ics : /resources/ics/2015-12-10.ics
+-
   name: Docker - Teile und Herrsche
   date: 05.11.2015
   time: "19:00"
   description: >
     Docker ist in aller Munde. Gleichzeitig hört man vom Tod der klassischen Java Application Server.
-    Nur wenige neue Technologien haben in einer derart kurzen Zeitspanne so umfassend Fuß fassen können wie die erst 2013 
+    Nur wenige neue Technologien haben in einer derart kurzen Zeitspanne so umfassend Fuß fassen können wie die erst 2013
     erschienene Plattform zum Entwickeln und Betrieb verteilter Anwendungen.
     Inzwischen mit einigem Risikokapital und namhaften Anwendern wie Red Hat, ebay, Google im Rücken,
     ist die leichtgewichtige Virtualisierungslösung schon längst auf den Weg die Grundlage für neue Lösungsarchitekturen zu formen.
-    Welche Chancen und Vorteile mit Docker für die Entwicklung, das Deployment und den Betrieb von Java-Anwendungen ergeben, das möchte diese Session zeigen. 
+    Welche Chancen und Vorteile mit Docker für die Entwicklung, das Deployment und den Betrieb von Java-Anwendungen ergeben, das möchte diese Session zeigen.
     Dazu erläutern wir die Funktionsweise und Konzepte von Docker und machen uns daran die Faszination für typische Einsatzszenarien wie für Microservices näher zu ergründen.
-    Im Live-Demo zeigen wir, wie leicht und schnell sich die eigene Anwendung als Container verschiffen und betreiben lässt. 
+    Im Live-Demo zeigen wir, wie leicht und schnell sich die eigene Anwendung als Container verschiffen und betreiben lässt.
     Praktische Tipps, wie z.B. zum Einsatz unter Windows oder den Risiken dieser Technologie ergänzen unseren Schnell-
     Einstieg und geben damit Orientierung für den Weg vom Build bis zum Betrieb der eigenen Anwendung unter Docker.
   speaker:
@@ -21,8 +57,8 @@
       Dr. Ralph Guderlei ist Technology Advisor bei der eXXcellent solutions GmbH in Ulm.
       Neben der Arbeit als Architekt/Projektleiter in unterschiedlichen Kundenprojekten berät er Teams in technologischen und methodischen Fragestellungen.
       Seine Schwerpunkte dabei sind zukunftsfähige Software-Architekturen, Web-Entwicklung und alternative JVM-Sprachen.
-    image2: /images/speaker/2015/rguderlei.png
-    image: /images/speaker/2015/BenjaminSchmid.jpg
+    image2: /images/speaker/2015/ralph-guderlei.png
+    image: /images/speaker/2015/benjamin-Schmid.jpg
   address:
     name: SHI GmbH & Co. KG
     street: Curt-Frenzel-Str. 12
