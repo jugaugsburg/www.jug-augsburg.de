@@ -320,7 +320,8 @@ pre {
 .sponsor-col-wrapper {
   font-size: 15px;
   color: #828282;
-  margin-left: -15px; }
+  margin-left: -15px;
+  width: 100%; }
 
 .sponsor-col {
   height: 80px;
