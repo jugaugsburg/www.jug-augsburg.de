@@ -252,6 +252,7 @@
     color: $grey-color;
     margin-left: -$spacing-unit / 2;
     @extend %clearfix;
+    width:100%;
 }
 
 .sponsor-col {
@@ -261,6 +262,7 @@
     padding-left: $spacing-unit / 2;
     width: -webkit-calc(33% - (#{$spacing-unit} / 2));
     width:         calc(33% - (#{$spacing-unit} / 2));
+    
 }
 
 @media (max-width: 500px) {
