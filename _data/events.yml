@@ -1,4 +1,56 @@
 -
+  name: Reactive Apps mit Akka and AngularJS
+  date: 10.03.2016
+  time: "19:00"
+  description: >
+    <a href="http://akka.io">Akka</a> and <a href="https://angularjs.org/">AngularJS</a> sind eine fantastische Kombination für Reactive Apps.
+    Akka kümmert sich um vertikale and horizontale Skalierbarkeit sowie
+    Widerstandsfähigkeit und Fehlertoleranz und mit AngularJS ist es einfach,
+    ein nutzerfeundliches interatives UI zu erstellen, das mit einem Akka-Backend
+    mittels Nachrichtenaustausch kommuniziert. In dieser Session bauen wir
+    Schritt für Schritt eine Reactive App: ausgehend vom UI nutzen wir zuerst
+    Akka HTTP und Server-Sent Events auf einem einzelnen Knoten und führen das
+    in einen elasitschen und ausfallsicheren Service über,
+    der Akka Distributed Data (CRDTs), Akka Cluster Sharding und Akka Persistence nutzt.
+  speaker:
+    name: Heiko Seeberger
+    bio: >
+      Heiko Seeberger ist Fellow bei codecentric und ein international
+      anerkannter Experte für Scala und Akka. Er hat mehr als 20 Jahre Erfahrung
+      in der Beratung und Softwareentwicklung. Heiko twittert unter
+      <a href="http://www.twitter.com/hseeberger">@hseeberger</a> und bloggt unter <a href="http://heikoseeberger.de">heikoseeberger.de</a>.
+    image: /images/speaker/2016/heiko-seeberger.png
+  address:
+    name: SHI GmbH & Co. KG
+    street: Curt-Frenzel-Str. 12
+    place: 86167 Augsburg
+-
+  name: Scala
+  date: 18.02.2016
+  time: "19:00"
+  description: >
+    Als langjähriger Java Entwickler ist Nils auf Scala Privat gestoßen und hat
+    sich in die Programmiersprache eingearbeitet. Nach über einem Jahr im
+    Umgang mit Scala hat Nils einen Vortrag vorbereitet, den er in der JUG
+    vortragen möchte. Der Vortrag konzentriert sich hauptsächlich auf die
+    neuen Errungenschaften der Sprache und den Unterschied zu Java. Zudem möchte
+    er einen Einstieg in die Sprache den Teilnehmern erleichtern,
+    sowie möglichen Fragen Antwort leisten. Zusätzlich spricht er Themen
+    wie typesafe Activator, AKKA und das Play Framework an.
+  speaker:
+    name: Nils Heinemann
+    bio: >
+      Nils Heinemann. Erfahrener Java Entwickler. Seit 04.2015 für SHI GmbH
+      als JSF Entwickler tätig, beschäftigt sich auch Privat mit einigen
+      interessanten Programmierer Thematiken. Als engagierter Entwickler
+      unterstützt er auch das JUG-Augsburg Team seit Januar 2016.
+      <a href="http://www.twitter.com/N_Heinemann">Twitter</a>
+    image: /images/speaker/2016/nils-heinemann.jpg
+  address:
+    name: SHI GmbH & Co. KG
+    street: Curt-Frenzel-Str. 12
+    place: 86167 Augsburg
+-
   name: The Feel of Kotlin
   date: 10.12.2015
   time: "19:00"
