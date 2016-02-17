@@ -1,4 +1,26 @@
 -
+  name: Microservices mit Spring Cloud und Netflix OSS
+  date: 21.04.2016
+  time: "19:00"
+  description: >
+   Microservices sind ein sehr interessanter Architekturstil wenn es um verteilte und hoch skalierbare Anwendungen geht.
+   Im Gegensatz zu sogenannten Monolithen wird hierbei die Anwendung in kleinere Einheiten (Microservice) zerlegt, die unabhängig voneinander entwickelt und deployed werden.
+   Jeder dieser Microservices soll dabei nur für eine bestimmmte abgegrenzte Aufgabe verantwortlich sein. Durch das Zusammenspiel von mehreren Microservices können aber auch komplexe Szenarien unterstützt werden.
+   Ein Vorreiter ist hier Netflix. Nicht nur, dass Netflix intern auf Microservices setzt, sie haben auch ihre Infrastrukturkomponenten als Open Source veröffentlicht.
+   Spring Cloud dient dazu als Integrationsmechanismus und Abstraktionsschicht.
+   Dieser Talk geht auf die grundlegenden Fragen ein: Was ist ein Microservice? Warum brauche ich Microservices? Wie baue ich mir Welche?
+  speaker:
+    name: Thomas Letsch
+    bio: >
+      Thomas Letsch ist seit über 15 Jahren in der IT Branche tätig. Zumeist als Freiberufler im Enterprise Applications Umfeld.
+      Momentan beschäft er sich intensiv mit modernen verteilten Anwendungen (Spring Cloud, Angular, Android Apps etc.).
+      Er bloggt unter http://www.thomas-letsch.de/blog/ und ist auch sonst über die üblichen Netzwerke zu erreichen.
+    image: /images/speaker/2016/thomas_letsch.jpg
+  address:
+    name: SHI GmbH & Co. KG
+    street: Curt-Frenzel-Str. 12
+    place: 86167 Augsburg
+-
   name: Reactive Apps mit Akka and AngularJS
   date: 10.03.2016
   time: "19:00"
