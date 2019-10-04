@@ -1,0 +1,14 @@
+---
+layout: default
+---
+
+<h1>{{page.title}}</h1>
+
+<ul>
+	{% for archive in page.archives %}
+	<li>
+		 <span>{{ archive.date }}:</span>
+        <a href="{{ site.baseurl }}/archives/{{ archive.slug }}.html">{{ archive.name }}{% if archive.speaker %} - {{ archive.speaker.name }}{% endif %} </a>
+	</li>
+	{% endfor %}
+</ul>

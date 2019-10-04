@@ -1,0 +1,64 @@
+---
+layout: default
+---
+<div class="post">
+
+  <header class="post-header">
+    <h1 class="post-title">{{ page.archive.name }}</h1>
+    <p>
+		{% if page.archive.speaker %}Sprecher: {{page.archive.speaker.name}}. <br/>{% endif %} 
+		<br/>
+		<div>
+			<div style="float:left">
+				Zeit: {{page.archive.date}}, {{page.archive.time}}. Ort: {{ page.archive.address.name }}
+			</div>
+			<div style="float:right">
+				{% if page.archive.ics %}
+  					<a href="{{page.archive.ics}}"><img width="15px" src="../images/icons/calendar.png" />Download für Kalender</a>
+  				{% endif %} 	
+			</div>
+		</div>
+    	<br style="clear:both" />
+    {% if page.xing %} 
+    <p><a href="{{page.xing}}">Anmeldung via Xing erbeten.</a></p>
+    {% endif %} 
+  </header>
+
+  <h2>Beschreibung</h2>
+  <article class="post-content">
+    {{ page.archive.description }}
+  </article>
+
+
+  {% if page.archive.speaker %} 
+  <h2>Sprecher</h2>
+  <article class="post-content">
+  	 {% if page.archive.speaker.image %} 
+  	 	<img src="{{page.archive.speaker.image | prepend: site.baseurl }}" class="speaker-image" />
+  	 {% endif %}
+  	 {% if page.archive.speaker.image2 %} 
+  	 	<img src="{{page.archive.speaker.image2 | prepend: site.baseurl }}" class="speaker-image" />
+  	 {% endif %}  	
+     {{ page.archive.speaker.bio }}
+  </article>
+  {% if page.archive.speaker.image %} 
+  <br style="clear:both"/>
+  {% endif %}   
+  {% endif %} 	
+  <h2>Ort</h2>
+  <article class="post-content">
+  	{{ page.archive.address.name }}<br/>
+    {{ page.archive.address.street }}<br/>
+    {{ page.archive.address.place }}<br/>
+  </article>
+ 	
+  <article class="post-content">
+  	{% if page.archive.download %}
+  		<h4>Downloads</h4>
+  		<a href="{{page.archive.download.url}}">{{page. .download.name}}</a>
+  	{% endif %} 
+  </article>
+ 	 
+ 
+ 
+</div>
