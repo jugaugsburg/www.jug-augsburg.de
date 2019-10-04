@@ -3,28 +3,17 @@ layout: default
 ---
 
 <div class="home">
-
+	
   <div class="index_banner" >
   	<!--<a href="http://software-architecture-summit.de"><img  src ="{{ site.baseurl }}/images/banner/architecture_summit2016.jpg" /></a>--> 
-  	<a href="https://jax.de" target ="__blank"><img src="/images/banner/WJAX_2016.jpg" /></a>
+  	<a href="https://www.javaland.eu/" target ="__blank"><img src="/images/banner/JavaLand_2020.jpg" /></a>
   </div>
 
-  <h1 class="page-heading">Aktuelles</h1>
-<!--
-  <ul class="post-list">
-    {% for post in site.posts %}
-      <li>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
 
-        <h2>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        </h2>
-      </li>
-    {% endfor %}
-  </ul>
 
-  <h2 class="page-heading">Events</h2>
--->
+
+<h1 class="page-heading">Veranstaltungen</h1>
+
   <ul>
     {% for event in site.data.events %}
       <li>
@@ -37,6 +26,18 @@ layout: default
 
 <br/>
 
+<h1 class="page-heading">Archiv</h1>
+
+  <ul>
+    {% for archive in site.data.archives %}
+      <li>
+        <span>{{ archive.date }}:</span>
+        <a href="{{ site.baseurl }}/archives/{{ archive.slug }}.html">{{ archive.name }}{% if archive.speaker %} - {{ archive.speaker.name }}{% endif %} </a>
+      </li>
+    {% endfor %}
+  </ul>
+
+
 
  <div class="sponsors">
   	<h2>Sponsoren</h2>
@@ -45,16 +46,9 @@ layout: default
   			<a href="http://www.shi-gmbh.com/" target="_new"><img src="{{ site.baseurl }}/images/sponsoren/shi.png" /></a>
   		</div>
   		<div class ="sponsor-col">
-  			<a href="http://www.sandsmedia.com" target="_new"><img src="{{ site.baseurl }}/images/sponsoren/sunds.jpg" /></a>
+  			<a href="https://www.cvltwear.com/" target="_new"><img src="{{ site.baseurl }}/images/sponsoren/cvltwear.png" /></a>
   		</div>
-  		<div class ="sponsor-col">
-  			<a href="http://www.jarchitect.com/" target="_new"><img src="{{ site.baseurl }}/images/sponsoren/jarchitect.png" /></a>
-  		</div>
-  		<br/>
-  		<div class="sponsor-col" />
-      <div class ="sponsor-col">
-        <a href="https://www.cvltwear.com/" target="_new"><img src="{{ site.baseurl }}/images/sponsoren/cvltwear.png" /></a>
-      </div>
+  		
   	</div>
   
   </div>

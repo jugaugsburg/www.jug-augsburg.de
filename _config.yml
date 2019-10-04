@@ -6,9 +6,7 @@ description: >
   Wir sind eine Gruppe unabhängiger Java-Programmierer, die Spaß
   an gemeinsamer Fortbildung haben.
 baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://www.jug-augsburg.de" # the base hostname & protocol for your site
-twitter_username: jugausburg
-github_username:  jugaugsburg
+url: "https://convien.com" # the base hostname & protocol for your site
 
 # Build settings
 markdown: kramdown
