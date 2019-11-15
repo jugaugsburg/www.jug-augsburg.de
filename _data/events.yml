@@ -13,3 +13,20 @@
     name: Mischok GmbH
     street: Leonhardsberg 3
     place: 86150 Augsburg
+-
+  name: Laufzeit ändern mit Java Agents und Byte Buddy -JUG Augsburg
+  date:  26.11.2019
+  time: "18:00 "
+  description: >
+   Java Agents sind kleine Programme, die sich zur Laufzeit an eine Java-Anwendung anhängen können um diese zu modifizieren. Eine wichtige Anwendung dafür ist Monitoring: Java-Agents können bestehende Legacy-Anwendungen so ändern, dass sie Metriken und Tracing-Daten für Monitoring-Systeme bereitstellen. In diesem Vortrag zeigt Fabian, wie man mit ByteBuddy eigene Java-Agents erstellen kann und was man dabei beachten sollte.
+  speaker:
+    name: Fabian Stäber
+    bio: >
+      Fabian Stäber ist Java Entwickler und Application Monitoring Experte bei Instana. Sein besonderes Interesse gilt den Java Agents, die sich zur Laufzeit an bestehende Java-Anwendungen anhängen können um Tracing-Daten und Metriken für das Instana Monitoring System zu ermitteln.
+      
+  address:
+    name: Mischok GmbH
+    street: Leonhardsberg 3
+    place: 86150 Augsburg
+
+    
