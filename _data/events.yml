@@ -28,5 +28,19 @@
     name: Mischok GmbH
     street: Leonhardsberg 3
     place: 86150 Augsburg
+-
+  name: Echte Unabhängigkeit f. Microservices–Unittests m. Wiremock
+  date:  28.01.2020
+  time: "18:00 "
+  description: >
+   Ohne die fast schon philosophische Debatte um eine Abgrenzung des Begriffs „Microservice“ befeuern zu wollen, gilt die Unabhängigkeit der einzelnen Komponenten eines Gesamtsystems zu den wenigen unstrittigen Kriterien. Durch die Kommunikation zwischen Services oder mit externen Schnittstellen ergibt sich für einen testgetriebenen Entwicklungsansatz fast zwangsläufig die Notwendigkeit, diese Kommunikationspartner im Rahmen von Unittests anzubinden.Im Vortrag wird anhand der Library „Wiremock“ gezeigt, wie ein einfaches Setup aussehen kann um einen per HTTP aufgerufenen Fremdservice soweit für Unittests zu mocken, dass eine unabhängige und testgetriebene Entwicklung des eigenen Services möglich ist. Hierfür wird in einem realen Setup Call für Call gegen das Fremdsystem ausgetauscht und auf die spezifischen Möglichkeiten wie Autorisierung, lesende Operationen, usw. eingegangen.
+  speaker:
+    name: Korbinian Reffler
+    bio: >
+      Korbinian Reffler ist Entwickler bei der Mischok GmbH in Augsburg. Sein Spezialgebiet ist die testgetriebene Entwicklung von Java-Backendsystemen mit Schwerpunkttechnologie Spring Boot. Hierbei sucht er ständig nach Lösungen, die eine höhere Testbarkeit der Software sicherstellen.Neben der Projektarbeit für Kunden wie Audi, Allianz und diverse mittelständische Unternehmen ist er immer wieder auch als Referent bei internen Fortbildungen und Kunden-Consultings tätig.
+  address:
+    name: Mischok GmbH
+    street: Leonhardsberg 3
+    place: 86150 Augsburg
 
     
