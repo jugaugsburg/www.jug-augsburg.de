@@ -6,6 +6,10 @@ permalink: /board/
 
 <ul class="board-members">
 	<li>
+		<p><img src="{{site.baseurl}}/images/board/Kajetan.jpg"></p>
+		Kajetan Mischok
+	</li>
+	<li>
 		<p><img src="{{site.baseurl}}/images/board/oliver-becherer.jpg"></p>
 		Oliver Becherer
 	</li>
