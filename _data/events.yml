@@ -42,5 +42,21 @@
     name: Mischok GmbH
     street: Leonhardsberg 3
     place: 86150 Augsburg
+-
+  name: OSGi - Ist das Kunst oder kann das weg? 
+  date:  25.02.2020
+  time: "18:00 "
+  description: >
+   Ist man als Entwickler ein wenig länger in der Programmiersprache Java unterwegs gewesen, wird man zwangsläufig irgendwann über den Begriff OSGi gestolpert sein.
+   Von manchen als die eierlegende Modularitätswollmilchsau verkauft, von anderen als Entwicklerhölle auf Erden verflucht, ist OSGi ein Framework, welches bereits seit über 20 Jahren die Entwicklergemeinde spaltet.
+   In diesem Vortrag werden wir uns gemeinsam anschauen was OSGi eigentlich ist, welche Konzepte hinter dem Framework stecken, was gut, was schlecht ist und was genau so viele Entwickler daran verzweifeln lässt oder daran begeistert.
+  speaker:
+    name: Thomas Driessen
+    bio: >
+      Thomas Driessen ist Moderator des Twitterchannels "OSGiNews" und Mitgründer der qbilon GmbH in Augsburg. Als Entwickler ist er dort zuständig für die Entwicklung serverloser Backend Applikationen, sowie modularer Agenten auf Basis von OSGi.
+  address:
+    name: Mischok GmbH
+    street: Leonhardsberg 3
+    place: 86150 Augsburg
 
     
