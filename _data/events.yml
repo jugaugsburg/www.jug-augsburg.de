@@ -1,14 +1,28 @@
--
-  name: Geht nicht gibt's nicht - Budgetgerechte Teststrategien 
-  date:  29.10.2019
+  name: OSGi - Ist das Kunst oder kann das weg? 
+  date:  25.02.2020
   time: "18:00 "
   description: >
-   Graphische Auswertungen und Exports sind ein zentraler Bestandteil vieler Geschäftsanwendungen. Während die Funktionalität für die Anwender eine wesentliche Arbeitserleichterung darstellt und daher einen hohen Geschäftswert hat, findet die Erstellung der benötigten Softwarekomponenten oft „noch schnell am Ende“ statt. Auf automatisierte Tests wird aufgrund der hohen Komplexität (aufwändiges Testsetup, Parsing der Ausgabedateien) verzichtet, wenn irgendwie vertretbar. Im Vortrag wird eine Architekturidee für die Generierung von Auswertungen und Exportdateien in unterschiedlichen Ausgabeformaten präsentiert. Durch die Einführung einer Modellebene zwischen Rohdaten und Ausgabedatei wird eine hohe Testbarkeit und eine lose Kopplung der beteiligten Komponenten erreicht. Die Projekterfahrung zeigt: Der modellbasierte Ansatz erhöht schon im ersten Sprint das Entwicklungstempo und die Qualität, die Entkopplung führt im gesamten Lebenszyklus der Anwendung zu deutlich mehr Nachhaltigkeit.
+   Ist man als Entwickler ein wenig länger in der Programmiersprache Java unterwegs gewesen, wird man zwangsläufig irgendwann über den Begriff OSGi gestolpert sein.
+   Von manchen als die eierlegende Modularitätswollmilchsau verkauft, von anderen als Entwicklerhölle auf Erden verflucht, ist OSGi ein Framework, welches bereits seit über 20 Jahren die Entwicklergemeinde spaltet.
+   In diesem Vortrag werden wir uns gemeinsam anschauen was OSGi eigentlich ist, welche Konzepte hinter dem Framework stecken, was gut, was schlecht ist und was genau so viele Entwickler daran verzweifeln lässt oder daran begeistert.
   speaker:
-    name: Julius Mischok
+    name: Thomas Driessen
     bio: >
-      Julius Mischok ist CTO der Mischok GmbH in Augsburg. Seine Schwerpunkte sind Prozessentwicklung und das coachen und unterstützen der Entwicklungs-Teams. Derzeit liegt der Fokus seiner Arbeit darauf, herauszufinden, wie Softwareproduktion mit einem maximalem Wertgewinn für den Kunden aussehen kann. Er studierte Mathematik und programmiert seit fast 20 Jahren Java. Mit seiner Expertise arbeitete er in Projekten für BMW, Audi, Hilti, Porsche, Allianz, Bosch und vielen anderen.
-      
+      Thomas Driessen ist Moderator des Twitterchannels "OSGiNews" und Mitgründer der qbilon GmbH in Augsburg. Als Entwickler ist er dort zuständig für die Entwicklung serverloser Backend Applikationen, sowie modularer Agenten auf Basis von OSGi.
+  address:
+    name: Mischok GmbH
+    street: Leonhardsberg 3
+    place: 86150 Augsburg
+-
+  name: Echte Unabhängigkeit f. Microservices–Unittests m. Wiremock
+  date:  28.01.2020
+  time: "18:00 "
+  description: >
+   Ohne die fast schon philosophische Debatte um eine Abgrenzung des Begriffs „Microservice“ befeuern zu wollen, gilt die Unabhängigkeit der einzelnen Komponenten eines Gesamtsystems zu den wenigen unstrittigen Kriterien. Durch die Kommunikation zwischen Services oder mit externen Schnittstellen ergibt sich für einen testgetriebenen Entwicklungsansatz fast zwangsläufig die Notwendigkeit, diese Kommunikationspartner im Rahmen von Unittests anzubinden.Im Vortrag wird anhand der Library „Wiremock“ gezeigt, wie ein einfaches Setup aussehen kann um einen per HTTP aufgerufenen Fremdservice soweit für Unittests zu mocken, dass eine unabhängige und testgetriebene Entwicklung des eigenen Services möglich ist. Hierfür wird in einem realen Setup Call für Call gegen das Fremdsystem ausgetauscht und auf die spezifischen Möglichkeiten wie Autorisierung, lesende Operationen, usw. eingegangen.
+  speaker:
+    name: Korbinian Reffler
+    bio: >
+      Korbinian Reffler ist Entwickler bei der Mischok GmbH in Augsburg. Sein Spezialgebiet ist die testgetriebene Entwicklung von Java-Backendsystemen mit Schwerpunkttechnologie Spring Boot. Hierbei sucht er ständig nach Lösungen, die eine höhere Testbarkeit der Software sicherstellen.Neben der Projektarbeit für Kunden wie Audi, Allianz und diverse mittelständische Unternehmen ist er immer wieder auch als Referent bei internen Fortbildungen und Kunden-Consultings tätig.
   address:
     name: Mischok GmbH
     street: Leonhardsberg 3
@@ -29,34 +43,20 @@
     street: Leonhardsberg 3
     place: 86150 Augsburg
 -
-  name: Echte Unabhängigkeit f. Microservices–Unittests m. Wiremock
-  date:  28.01.2020
+  name: Geht nicht gibt's nicht - Budgetgerechte Teststrategien 
+  date:  29.10.2019
   time: "18:00 "
   description: >
-   Ohne die fast schon philosophische Debatte um eine Abgrenzung des Begriffs „Microservice“ befeuern zu wollen, gilt die Unabhängigkeit der einzelnen Komponenten eines Gesamtsystems zu den wenigen unstrittigen Kriterien. Durch die Kommunikation zwischen Services oder mit externen Schnittstellen ergibt sich für einen testgetriebenen Entwicklungsansatz fast zwangsläufig die Notwendigkeit, diese Kommunikationspartner im Rahmen von Unittests anzubinden.Im Vortrag wird anhand der Library „Wiremock“ gezeigt, wie ein einfaches Setup aussehen kann um einen per HTTP aufgerufenen Fremdservice soweit für Unittests zu mocken, dass eine unabhängige und testgetriebene Entwicklung des eigenen Services möglich ist. Hierfür wird in einem realen Setup Call für Call gegen das Fremdsystem ausgetauscht und auf die spezifischen Möglichkeiten wie Autorisierung, lesende Operationen, usw. eingegangen.
+   Graphische Auswertungen und Exports sind ein zentraler Bestandteil vieler Geschäftsanwendungen. Während die Funktionalität für die Anwender eine wesentliche Arbeitserleichterung darstellt und daher einen hohen Geschäftswert hat, findet die Erstellung der benötigten Softwarekomponenten oft „noch schnell am Ende“ statt. Auf automatisierte Tests wird aufgrund der hohen Komplexität (aufwändiges Testsetup, Parsing der Ausgabedateien) verzichtet, wenn irgendwie vertretbar. Im Vortrag wird eine Architekturidee für die Generierung von Auswertungen und Exportdateien in unterschiedlichen Ausgabeformaten präsentiert. Durch die Einführung einer Modellebene zwischen Rohdaten und Ausgabedatei wird eine hohe Testbarkeit und eine lose Kopplung der beteiligten Komponenten erreicht. Die Projekterfahrung zeigt: Der modellbasierte Ansatz erhöht schon im ersten Sprint das Entwicklungstempo und die Qualität, die Entkopplung führt im gesamten Lebenszyklus der Anwendung zu deutlich mehr Nachhaltigkeit.
   speaker:
-    name: Korbinian Reffler
+    name: Julius Mischok
     bio: >
-      Korbinian Reffler ist Entwickler bei der Mischok GmbH in Augsburg. Sein Spezialgebiet ist die testgetriebene Entwicklung von Java-Backendsystemen mit Schwerpunkttechnologie Spring Boot. Hierbei sucht er ständig nach Lösungen, die eine höhere Testbarkeit der Software sicherstellen.Neben der Projektarbeit für Kunden wie Audi, Allianz und diverse mittelständische Unternehmen ist er immer wieder auch als Referent bei internen Fortbildungen und Kunden-Consultings tätig.
+      Julius Mischok ist CTO der Mischok GmbH in Augsburg. Seine Schwerpunkte sind Prozessentwicklung und das coachen und unterstützen der Entwicklungs-Teams. Derzeit liegt der Fokus seiner Arbeit darauf, herauszufinden, wie Softwareproduktion mit einem maximalem Wertgewinn für den Kunden aussehen kann. Er studierte Mathematik und programmiert seit fast 20 Jahren Java. Mit seiner Expertise arbeitete er in Projekten für BMW, Audi, Hilti, Porsche, Allianz, Bosch und vielen anderen.
+      
   address:
     name: Mischok GmbH
     street: Leonhardsberg 3
     place: 86150 Augsburg
--
-  name: OSGi - Ist das Kunst oder kann das weg? 
-  date:  25.02.2020
-  time: "18:00 "
-  description: >
-   Ist man als Entwickler ein wenig länger in der Programmiersprache Java unterwegs gewesen, wird man zwangsläufig irgendwann über den Begriff OSGi gestolpert sein.
-   Von manchen als die eierlegende Modularitätswollmilchsau verkauft, von anderen als Entwicklerhölle auf Erden verflucht, ist OSGi ein Framework, welches bereits seit über 20 Jahren die Entwicklergemeinde spaltet.
-   In diesem Vortrag werden wir uns gemeinsam anschauen was OSGi eigentlich ist, welche Konzepte hinter dem Framework stecken, was gut, was schlecht ist und was genau so viele Entwickler daran verzweifeln lässt oder daran begeistert.
-  speaker:
-    name: Thomas Driessen
-    bio: >
-      Thomas Driessen ist Moderator des Twitterchannels "OSGiNews" und Mitgründer der qbilon GmbH in Augsburg. Als Entwickler ist er dort zuständig für die Entwicklung serverloser Backend Applikationen, sowie modularer Agenten auf Basis von OSGi.
-  address:
-    name: Mischok GmbH
-    street: Leonhardsberg 3
-    place: 86150 Augsburg
+ 
 
     
