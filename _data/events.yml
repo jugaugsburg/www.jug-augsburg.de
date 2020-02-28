@@ -1,3 +1,44 @@
+  name: April I: Self-Driving Car: Computer Vision und Machine Learning (Intro)
+  date:  14.04.2020
+  time: "18:00 "
+  description: >
+  Für den April haben wir uns einen zweiteiligen Vortrag vorgenommen! Das hier ist der erste Teil, in dem uns Tobias Steidle         die Komponenten eines autonomen Fahrzeugs vorstellt. 2 Wochen später geht es dann weiter mit der Frage, wie ein neuronales Netz trainiert und in einen Java Webservice integriert werden kann. >
+>
+  Am 14.04. geht es aber wie gesagt erstmal um autonomes Fahren. Tobias gibt uns einen Einblick in autonome Fahrzeuge. Konkret werden die einzelnen Komponenten erklärt und eine Einführung in Computer Vision gegeben. >
+>
+Dazu gibt es Beispiele zur Spurerkennung und einen Einblick in Machine Learning. Hier werden unterschiedliche Arten des maschinellen Lernens vorgestellt: Von "klassischen" Verfahren bis zu neuronalen Netzen.  
+    speaker:
+    name: Thomas Driessen
+    bio: >
+      Tobias Steidle ist freiberuflicher Full-Stack Entwickler und seit über 15 Jahren in verschiedensten Brachen tätig.
+Aktuell hauptsächlich im Versicherungsumfeld als Entwickler von Cloud Anwendungen (Front- u. Backend) u.a. mit Spring.
+Sein besonderes Interesse gilt dem Machine Learning. Von Computer Vision über Natural Language Processing bis zum Reinforcement Learning.
+  address:
+    name: Mischok GmbH
+    street: Leonhardsberg 3
+    place: 86150 Augsburg
+-
+  name: Elasticsearch - Neue Features für die Volltextsuche
+  date:  31.03.2020
+  time: "18:00 "
+  description: >
+  Auch wenn Elasticsearch häufig in Verbindung mit Logging und Observability verwendet wird, ist es zudem eine komplexe Volltextsuchmaschine. In dieser Präsentation werden anhand von Beispielen unterschiedliche erst in Elasticsearch 7 eingeführte Datentypen und Suchanfragen präsentiert, die Volltextsuche einfacher und effizienter machen, wenn man Elasticsearch als beispielsweise als Ecommerce Suchmaschine verwendet. Um Vortrag geht es unter anderem um >
+* Datentypen: range_, date_nanos, search-as-you-type, flattened, vector >
+* Field collapsing, top hits aggregation, distance feature queries >
+* Phonetische Suche > 
+* Enrich and Dissect Processors >
+* Index & Snapshot Lifecycle Management
+  speaker:
+    name: Thomas Driessen
+    bio: >
+      Tobias Steidle ist freiberuflicher Full-Stack Entwickler und seit über 15 Jahren in verschiedensten Brachen tätig.
+Aktuell hauptsächlich im Versicherungsumfeld als Entwickler von Cloud Anwendungen (Front- u. Backend) u.a. mit Spring.
+Sein besonderes Interesse gilt dem Machine Learning. Von Computer Vision über Natural Language Processing bis zum Reinforcement Learning.
+  address:
+    name: Mischok GmbH
+    street: Karlstr. 12
+    place: 86150 Augsburg
+-  
   name: OSGi - Ist das Kunst oder kann das weg? 
   date:  25.02.2020
   time: "18:00 "
